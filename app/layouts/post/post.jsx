@@ -80,7 +80,7 @@ export const Post = ({ children, title, date, banner, timecode }) => {
             </Heading>
             <div className={styles.details}>
               <RouterLink
-                to="#postContent"
+                to="postContent"
                 className={styles.arrow}
                 aria-label="Scroll to post content"
                 onClick={handleScrollIndicatorClick}

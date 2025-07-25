@@ -3,7 +3,7 @@
 ENVIRONMENT=development
 
 # The email address to send emails to
-EMAIL=you@website.com
+EMAIL=vaibhavmishragr2018@gmail.com
 
 # The email address to send emails from (this needs to be set up in the AWS SES dashboard)
 FROM_EMAIL=portfolio-site@website.com

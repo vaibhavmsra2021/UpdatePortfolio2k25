@@ -10,29 +10,34 @@ export const navLinks = [
     pathname: '/#details',
   },
   {
-    label: 'Articles',
-    pathname: '/articles',
-  },
-  {
     label: 'Contact',
     pathname: '/contact',
   },
+  // {
+  //   label: 'Resume',
+  //   pathname: '/resume',
+  // },
 ];
 
 export const socialLinks = [
   {
-    label: 'Bluesky',
-    url: `https://bsky.app/profile/${config.bluesky}`,
-    icon: 'bluesky',
+    label: 'linkedIn',
+    url: `https://www.linkedin.com/in/${config.linkedin}`,
+    icon: 'linkedIn',
   },
-  {
-    label: 'Figma',
-    url: `https://www.figma.com/${config.figma}`,
-    icon: 'figma',
-  },
+  // {
+  //   label: 'Figma',
+  //   url: `https://www.figma.com/${config.figma}`,
+  //   icon: 'figma',
+  // },
   {
     label: 'Github',
     url: `https://github.com/${config.github}`,
     icon: 'github',
   },
+  {
+    label: 'Twitter',
+    url: `https://twitter.com/${config.twitter}`,
+    icon: 'twitter',
+  }
 ];

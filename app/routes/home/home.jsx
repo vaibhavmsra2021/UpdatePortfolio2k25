@@ -156,7 +156,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="ConciAI : The Hotel Corcierge"
-        description="Developed the end to end edge device (similar to amazon echo) and a centralised backend using FastAPI with a next.js based staff dashboard to manage the interfacing"
+        description="Developed the end to end edge device (similar to amazon echo) and a centralised backend using FastAPI powered by Gemini 2.0 Flash to address and manage user queries automatically with a next.js based staff dashboard to manage the interfacing"
         buttonText="View project"
         buttonLink="https://conciai-cbz18u0.gamma.site/"
         model={{
